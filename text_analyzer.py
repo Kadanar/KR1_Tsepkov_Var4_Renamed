@@ -1,39 +1,39 @@
 """
-Zadanie 2A - Analiz teksta bez regulyarnyh vyrazhenij
-Kontrolnaya rabota №1, Zadanie 2A
-Versiya: 1.0
-Avtor: Tsepkov Mikhail Dmitrievich (35355018), Variant 4
-Data: 2026-05-31
+Задание 2А — Анализ текста без регулярных выражений
+Контрольная работа №1, Задание 2А
+Версия: 1.0
+Автор: Цепков Михаил Дмитриевич (35355018), Вариант 4
+Дата: 2026-05-31
 
-Variant 4: Podschitat kolichestvo probelnyh simvolov v stroke.
+Вариант 4: Подсчитать количество пробельных символов в строке.
 """
 
 
 def is_whitespace(ch: str) -> bool:
     """
-    Checks if character is whitespace.
+    Проверяет, является ли символ пробельным.
 
-    :param ch: input character
-    :return: True if whitespace
+    :param ch: входной символ
+    :return: True, если символ пробельный
     """
     return ch in (' ', '\t', '\n', '\r', '\f', '\v')
 
 
 def count_whitespace(text: str) -> int:
     """
-    Counts whitespace characters in string without regex.
+    Подсчитывает количество пробельных символов без регулярных выражений.
 
-    :param text: input string
-    :return: count of whitespace characters
+    :param text: входная строка
+    :return: количество пробельных символов
     """
     return sum(1 for ch in text if is_whitespace(ch))
 
 
 def find_whitespace_chars(text: str) -> list:
     """
-    Returns list of all whitespace characters found.
+    Возвращает список всех пробельных символов в строке.
 
-    :param text: input string
-    :return: list of whitespace characters
+    :param text: входная строка
+    :return: список пробельных символов
     """
     return [repr(ch) for ch in text if is_whitespace(ch)]

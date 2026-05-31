@@ -1,27 +1,27 @@
 """
-Module for input initialization.
-Provides generator and user input methods.
+Модуль инициализации входных последовательностей.
+Предоставляет инициализацию через генератор и через ввод пользователя.
 """
 
 import random
 
 
-def init_from_user(prompt: str = "Vvedite tekst: ") -> str:
+def init_from_user(prompt: str = "Введите текст: ") -> str:
     """
-    Gets text from user input.
+    Инициализация текста из ввода пользователя с клавиатуры.
 
-    :param prompt: message for user
-    :return: entered string
+    :param prompt: сообщение для пользователя
+    :return: введённая строка
     """
     return input(prompt)
 
 
 def init_from_generator(num_words: int = 8) -> str:
     """
-    Generates random text for testing.
+    Генерирует случайный текст для тестирования.
 
-    :param num_words: number of words to generate
-    :return: generated string
+    :param num_words: количество слов для генерации
+    :return: сгенерированная строка
     """
     random.seed(42)
     words = [

@@ -1,22 +1,26 @@
 =======================================================
-  ZADANIE 2B - Analiz teksta, Variant 4
+  ЗАДАНИЕ 2Б — Анализ текста, Вариант 4
 =======================================================
 
-1. Tekst s zamenennymi probelami (simvol '_'):
+1. Текст с заменёнными пробелами (символ '_'):
 The_quick_brown_fox_jumps_over_the_lazy_dog._Is_this_a_test?_Yes_it_is!
 Python_is_a_great_programming_language._Do_you_agree?_I_love_it!
-My_GUID_is_e02fd0e4-00fd-090A-ca30-0d00a0038ba0_and_it_is_valid
+My_GUID_is_e02fd0e4-00fd-090A-ca30-0d00a0038ba0_and_it_is_valid.
+This_is_invalid:_e02fd0e400fd090Aca300d00a0038ba0.
+I_love_coding_;)_and_learning_new_things_:-)))_every_day.
+The_weather_is_nice_today._Are_you_going_outside?_Enjoy_it!
 
-2. Proverka GUID:
+
+2. Проверка GUID:
    e02fd0e4-00fd-090A-ca30-0d00a0038ba0 -> True
    {e02fd0e4-00fd-090A-ca30-0d00a0038ba0} -> True
    e02fd0e400fd090Aca300d00a0038ba0 -> False
    12345678-1234-1234-1234-123456789abc -> True
 
-3. Predlozheniya: {'total': 12, 'declarative': 6, 'interrogative': 3, 'exclamatory': 3}
+3. Предложения: {'total': 12, 'declarative': 6, 'interrogative': 3, 'exclamatory': 3}
 
-4. Srednyaya dlina predlozheniya: 20.58
+4. Средняя длина предложения: 20.58
 
-5. Srednyaya dlina slova: 3.81
+5. Средняя длина слова: 3.81
 
-6. Kolichestvo smajlikov: 2
+6. Количество смайликов: 2
