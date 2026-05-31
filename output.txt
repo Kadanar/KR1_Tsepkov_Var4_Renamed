@@ -1,0 +1,22 @@
+=======================================================
+  ZADANIE 2B - Analiz teksta, Variant 4
+=======================================================
+
+1. Tekst s zamenennymi probelami (simvol '_'):
+The_quick_brown_fox_jumps_over_the_lazy_dog._Is_this_a_test?_Yes_it_is!
+Python_is_a_great_programming_language._Do_you_agree?_I_love_it!
+My_GUID_is_e02fd0e4-00fd-090A-ca30-0d00a0038ba0_and_it_is_valid
+
+2. Proverka GUID:
+   e02fd0e4-00fd-090A-ca30-0d00a0038ba0 -> True
+   {e02fd0e4-00fd-090A-ca30-0d00a0038ba0} -> True
+   e02fd0e400fd090Aca300d00a0038ba0 -> False
+   12345678-1234-1234-1234-123456789abc -> True
+
+3. Predlozheniya: {'total': 12, 'declarative': 6, 'interrogative': 3, 'exclamatory': 3}
+
+4. Srednyaya dlina predlozheniya: 20.58
+
+5. Srednyaya dlina slova: 3.81
+
+6. Kolichestvo smajlikov: 2
